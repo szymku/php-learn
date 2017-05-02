@@ -1,0 +1,22 @@
+{
+    "name": "root/php-learn",
+    "description": "Learn some php",
+    "authors": [
+        {
+            "name": "sk",
+            "email": "szymkul@gmail.com"
+        }
+    ],
+    "require": {},
+    "config": {
+        "bin-dir": "bin/"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "require-dev": {
+        "phpspec/phpspec": "^3.3"
+    }
+}
